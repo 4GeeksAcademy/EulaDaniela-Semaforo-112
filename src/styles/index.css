@@ -1,7 +1,7 @@
 /* 
 
     You can write your own styles here...
-    
+
     
     ...Or you can use the import command to include 
     other sylesheets into your bunde as well, e.j:
@@ -9,3 +9,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo{
+    background-color: black;
+    border-radius: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.poste{
+    width: 20px;
+    height: 150px;
+    background-color: black;
+    
+    
+}
+
+.activo{
+    box-shadow: 0px 1px 19px 20px rgba(255,255,255,0.75);
+    border: 1px solid #fff;
+}
